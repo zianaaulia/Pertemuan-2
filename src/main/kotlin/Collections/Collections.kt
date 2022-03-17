@@ -13,6 +13,5 @@ fun main(args: Array<String>) {
 /*
 Collection adalah konsep umum untuk sebagian besar bahasa pemrograman,
 jadi jika Anda terbiasa dengan, misalnya, koleksi Java atau Python,
-Kita dapa
-t melewati pengantar ini dan melanjutkan ke bagian detail.
+Kita dapat melewati pengantar ini dan melanjutkan ke bagian detail.
  */
