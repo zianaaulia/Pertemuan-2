@@ -1,22 +1,27 @@
 package Array
-
+/*
+    Metode Array adalah metode yang digunakan dalam proses mengolah data array
+    yang sesuai dengan kebutuhan aplikasi yang sedang dibuat agar menjadi
+    efisien atau lebih singkat.
+ */
 fun main(args: Array<String>) {
     //Array methods
-    //sort()
+    //sort() adalah mengurutkan array di tempat menurut urutan alami elemen-elemennya.
     val simpsonsA = arrayOf("Homer", "Marge", "Bart", "Lisa", "Meggie")
     simpsonsA.sort()
     for (simpson in simpsonsA) {
         print(simpson + ' ')
     }
     print('\n')
-    //sorted()
+    //sorted() adalah mengembalikan daftar semua elemen yang diurutkan menurut urutan alaminya.
     val simpsonsB: Array<String> = arrayOf("Homer", "Marge", "Bart", "Lisa", "Meggie")
     val simpsons_sorted = simpsonsB.sortedArray()
     for (simpson in simpsons_sorted) {
         print(simpson + ' ')
     }
     print('\n')
-    //reverse() and reversedArray()
+    //reverse() membalikkan elemen larik dalam rentang yang ditentukan di tempat.
+    //reversedArray() Mengembalikan urutan karakter dengan karakter dalam urutan terbalik.
     val simpsonsC: Array<String> = arrayOf("Homer", "Marge", "Bart", "Lisa", "Meggie")
     simpsonsC.sort()
     simpsonsC.reverse()
@@ -24,8 +29,11 @@ fun main(args: Array<String>) {
         print(simpson + ' ')
     }
     print('\n')
-
-    //indexOf()
+    /*
+    indexOf() adalah Mengembalikan indeks kemunculan pertama
+    dari elemen yang ditentukan dalam daftar, atau -1 jika elemen yang
+    ditentukan tidak terdapat dalam daftar.
+     */
     val simpsonsD = arrayOf("Homer", "Marge", "Bart", "Lisa", "Meggie")
     val simpson = "Lisa"
     val position = simpsonsD.indexOf(simpson)
