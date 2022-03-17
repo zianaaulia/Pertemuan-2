@@ -18,6 +18,7 @@ fun main(args: Array<String>) {
         println("the element at $index is $value")
     }
 }
+
 /*
 For loop merupakan statement control flow untuk iterasi khusus, yang memungkinkan kode
 untuk dijalankan berulang.
