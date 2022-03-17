@@ -1,4 +1,4 @@
-package Collections
+package Ranges
 /*
 Range di Kotlin adalah tipe unik yang mendefinisikan nilai awal dan nilai akhir.
 Dengan kata lain, ini adalah interval antara awal dan nilai akhir.
