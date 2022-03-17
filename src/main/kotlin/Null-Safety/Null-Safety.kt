@@ -7,5 +7,4 @@ fun main(args: Array<String>) {
 
     //number = null //Baris ini akan menyebabkan Erro
     //Kode diatas error karena null tidak bisa menjadi nilai dari tipe data int
-
 }
