@@ -1,7 +1,7 @@
 package Collections
 /*
 List adalah komponen dalam bahasa pemrograman kotlin yang mirip dengan Array,
-keduanya memiliki fungsi sama yaitu menyimpan koleksi data
+keduanya memiliki fungsi sama yaitu menyimpan koleksi data. List memiliki dua jenis yakni Mutable List dan Immutable List.
  */
 fun main(args:Array<String>){
     val numbers = listOf("one", "two", "three", "four")
