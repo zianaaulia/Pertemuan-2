@@ -1,6 +1,6 @@
 @file:Suppress("UNREACHABLE_CODE")
 
-package `Null-Safety`
+package NullSafety
 
 /**
     fun main(args: Array<String>) {
@@ -18,14 +18,14 @@ Pada kode diatas terdapat kesalahan karena kita tidak dapat bekerja
 dengan variabel maybeNumber dan s2 karena kemungkinan memiliki nilai null
  */
 
-fun main(args: Array<String>) {
-    //Null safety
-    //The !! operator
-    var maybeNumber: Int? = 15
-    println(maybeNumber!! * 2)
-
-    maybeNumber = null
-    println(maybeNumber!! * 2)
-}
+//fun main(args: Array<String>) {
+//    //Null safety
+//    //The !! operator
+//    var maybeNumber: Int? = 15
+//    println(maybeNumber!! * 2)
+//
+//    maybeNumber = null
+//    println(maybeNumber!! * 2)
+//}
 
 
