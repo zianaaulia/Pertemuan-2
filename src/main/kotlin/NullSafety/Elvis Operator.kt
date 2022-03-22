@@ -1,4 +1,4 @@
-package `Null-Safety`
+package NullSafety
 
 fun main(args: Array<String>) {
 //Elvis Operator ?:
