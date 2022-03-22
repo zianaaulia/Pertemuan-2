@@ -1,4 +1,4 @@
-package `Fungsi Math`
+package FungsiMath
 
 import kotlin.math.PI
 fun main(args: Array<String>) {
